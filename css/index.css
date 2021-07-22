@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 /* font-family: 'Hind', sans-serif; */
 
-html, body {font-family: 'Hind', sans-serif; font-size: 15px; height: 5000px;}
+html, body {font-family: 'Hind', sans-serif; font-size: 15px;}
 
 .wrapper {max-width: 1564px; margin: auto; margin-bottom: 6px; padding: 32px;}
 h3.title {font-size: 25px; border-bottom: 1px solid #eee; padding: 8px 0; margin-bottom: 40px;}
@@ -17,18 +17,20 @@ h3.title {font-size: 25px; border-bottom: 1px solid #eee; padding: 8px 0; margin
 
 /************** main-wrapper ****************/
 .main-wrapper .img-wrapper {position: relative; top: 0; left: 0; max-width: 1500px; margin: auto; margin-bottom: 30px;} 
-.main-wrapper .img-wrapper .slogan-wrap {position: absolute; font-size: 36px; color: #fff; top: 48%; left: 42%; letter-spacing: 4px; text-align: center;}
-.main-wrapper .img-wrapper .slogan-wrap .br {background-color: #000; padding: 2px 16px; opacity: .7;}
+.main-wrapper .img-wrapper .slogan-wrap {position: absolute; font-size: 36px; color: #fff; top: 49%; left: 36%; letter-spacing: 4px; text-align: center; border: 2px solid red;}
+.main-wrapper .img-wrapper .slogan-wrap .br {background-color: #000; padding: 8px 16px 2px 16px; opacity: .75;}
+
+
 
 /************** projects-wrapper ****************/
 .projects-wrapper .imgs-wp1 {margin-bottom: 18px;}
 .projects-wrapper .img-wp {width: 23.875%; float: left; position: relative;} 
 .projects-wrapper .imgs-wp > .img-wp:nth-child(2) {margin: 0 1.5%;} 
 .projects-wrapper .imgs-wp > .img-wp:nth-child(3) {margin-right: 1.5%;} 
-.projects-wrapper .imgs-wp .img-wp .house-name {background-color: #000; color: #fff; font-size: 18px; position: absolute; top: 0; left: 0; padding: 4px 16px;}
+.projects-wrapper .imgs-wp .img-wp .house-name {background-color: #000; color: #fff; font-size: 18px; position: absolute; top: 0; left: 0; padding: 4px 16px;} 
 
 /************** about-wrapper ****************/
-.about-wrapper .wrapper {}
+.about-wrapper .wrapper {margin-bottom: 12px;}
 .about-wrapper .wrapper h3.title {margin-bottom: 16px;}
 .about-wrapper .wrapper p.content {font-size: 18px; line-height: 1.2; margin-bottom: 50px;}
 .about-wrapper .member-wp {width: 23.875%; float: left;}
@@ -42,12 +44,15 @@ h3.title {font-size: 25px; border-bottom: 1px solid #eee; padding: 8px 0; margin
 .about-wrapper .member-wp .contact:hover {background-color: #ccc;}
 
 /************** contact-wrapper ****************/
+.contact-wrapper .wrapper {margin-bottom: 0; padding-bottom: 8px;}
 .contact-wrapper h3.title {margin-bottom: 14px;}
 .contact-wrapper p.content {margin-bottom: 14px; font-size: 17px;}
+.contact-wrapper .form {margin-bottom: 48px;}
 .contact-wrapper .form .input {width: 100%; border: 1px solid #ccc; padding: 10px 8px; margin-bottom: 16px; font-size: 16px;}
 .contact-wrapper .form .input:nth-child(4) {margin-bottom: 32px;}
 .contact-wrapper .form .bt-submit {border: none; font-size: 15px; color: #fff; background-color: #000; cursor: pointer; padding: 10px 18px;}
 .contact-wrapper .form .bt-submit:hover {color: #000; background-color: #ccc;}
 
 /************** footer-wrapper ****************/
-
+.footer-wrapper {background-color: #000; color: #fff; text-align: center; padding: 28px; font-size: 17px;}
+.footer-wrapper .adr {text-decoration: underline;}
