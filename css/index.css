@@ -17,8 +17,8 @@ h3.title {font-size: 25px; border-bottom: 1px solid #eee; padding: 8px 0; margin
 
 /************** main-wrapper ****************/
 .main-wrapper .img-wrapper {position: relative; top: 0; left: 0; max-width: 1500px; margin: auto; margin-bottom: 30px;} 
-.main-wrapper .img-wrapper .slogan-wrap {position: absolute; font-size: 36px; color: #fff; top: 49%; left: 36%; letter-spacing: 4px; text-align: center; border: 2px solid red;}
-.main-wrapper .img-wrapper .slogan-wrap .br {background-color: #000; padding: 8px 16px 2px 16px; opacity: .75;}
+.main-wrapper .img-wrapper .slogan-wrap {position: absolute; font-size: 36px; color: #fff; top: 50%; left: 50%; letter-spacing: 4px; text-align: center; transform: translate(-50%, -50%);}
+.main-wrapper .img-wrapper .slogan-wrap .br {background-color: #000; padding: 4px 16px; opacity: .75;}
 
 
 
